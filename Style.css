@@ -3,27 +3,27 @@
     box-sizing: border-box;
   }
   body{
-    background-image: url(Img/fundo4.jpg);
+    background-image: url(img/fundo4.jpg);
     background-repeat: inherit;
     background-size: contain;
-    background-attachment: scroll; 
-    
+    background-attachment: scroll;
+
   }
 
   .menu  a{
     text-decoration: none;
     color: white;
   }
-  
+
   .menup  a{
     text-decoration: none;
     color: white;
-    
+
   }
   p{
     text-align:center;
   }
-  
+
 header.menu-principal{
     position: fixed;
     z-index: 5;
@@ -34,17 +34,17 @@ header.menu-principal{
     justify-content: space-around;
     align-items: center;
     padding: 20px;
-  
+
   }
   .menu{
     display: flex;
     flex-wrap: wrap;
-  
+
   }
   .menu li{
     margin: inherit;
     list-style: none;
-  
+
   }
   .menu li a{
     display: block;
@@ -52,7 +52,7 @@ header.menu-principal{
     font-family:Arial;
     font-size:22px;
     text-shadow:1px 1px 0px rgba(0,0,0.5);
-   
+
   }
   header.menu-projetos{
     position: fixed;
@@ -69,13 +69,13 @@ header.menu-principal{
     font-family:Arial;
     font-size:22px;
     text-shadow:1px 1px 0px rgba(0,0,0.5);
-  
+
   }
   .menup p {
     text-align:center;
   }
-  
- 
+
+
   a:hover{
     color: black;
     }
@@ -95,7 +95,7 @@ header.menu-principal{
     font-size: 25px;
     color: white;
   }
-  
+
   .anny{
     text-align: center;
   }
@@ -107,7 +107,7 @@ header.menu-principal{
     padding: 90px;
     margin: 0 auto;
     top:200px;
-  
+
   }
   .centralizadop{
     background: rgb(0, 0, 0) transparent;
@@ -122,26 +122,26 @@ header.menu-principal{
   .sobre{
     top: 180px;
   }
-  
-   
+
+
   .projetos {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;/*quantas colunas eu quero*/
   grid-gap: 20px;
   max-width: 800px;
   margin: 0 auto;
-  
-  }
- 
 
-  
+  }
+
+
+
   .contato{
     top: 420px ;
     padding: 30px;
     border:1px solid #ccc;
     height: 590px;
   }
-  
+
   .contato p{
       width: 100%;
       font-size: 1.5em;
@@ -193,7 +193,7 @@ header.menu-principal{
       text-align: center;
       border-radius: 15px;
   }
- 
+
   footer{
     top: 560px;
     clear:left;
@@ -209,7 +209,7 @@ header.menu-principal{
     align-items: center;
     text-align: center;
 
-  
+
 }
 .calculadora input{
     margin: 2px;
@@ -259,7 +259,7 @@ div#calculadora div{
     .projetos{
       grid-template-columns: 1fr ;
     }
-   
+
     legend{
       width: 200px;
     }
@@ -274,5 +274,5 @@ div#calculadora div{
     .flowers{
       grid-template-columns: 1fr ;
     }
-    
+
   }
